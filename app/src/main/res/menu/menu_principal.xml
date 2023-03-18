@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/btnQrCode"
+        android:icon="@drawable/ic_qr_code"
+        android:title="Ler Produto"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menuOrdenaNome"
+        android:icon="@drawable/ic_person"
+        android:title="Nome"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menuOrdenarValor"
+        android:color="#FAF8F8"
+        android:icon="@drawable/ic_valor"
+        android:title="Valor"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/btnSair"
+        android:icon="@drawable/ic_close"
+        android:title="Fechar"
+        app:showAsAction="always" />
+</menu>
